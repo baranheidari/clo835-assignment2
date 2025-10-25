@@ -16,6 +16,8 @@ The goal was to understand how to create deployments, services, and manage appli
 Both applications communicate inside the same namespace through Kubernetes DNS.  
 ---
 ## Kubernetes Components  
+
+
 | Component | Type | Namespace | Description |
 | MySQL | Deployment + ClusterIP | web | Database layer |
 | Web App | Deployment + NodePort | web | Flask web frontend |
